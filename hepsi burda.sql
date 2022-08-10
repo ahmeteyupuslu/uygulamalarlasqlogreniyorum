@@ -2,7 +2,7 @@
 excelden çekerken kullandığımız kod.
 
 
-AGE sütunu oluşturduktan sonra doğum tarihinden otomatik olarak yaş çekme
+/*AGE sütunu oluşturduktan sonra doğum tarihinden otomatik olarak yaş çekme*/
 SELECT * FROM customer
 
 UPDATE customer
@@ -12,9 +12,9 @@ SELECT * FROM CUSTOMER
 WHERE CITY='Rize' AND DISTRICT='Derepazarı'
 
 WHERE AGE BETWEEN 19 AND 25
-WHERE CUSTOMERNAME LIKE 'AHMET%' adı ahmet olanlar
-%AHMET sonu ahmet ile biter
-%AHMET% içinde ahmet vardır
+WHERE CUSTOMERNAME LIKE 'AHMET%' /*adı ahmet olanlar*/
+'%AHMET' sonu ahmet ile biter
+'%AHMET%' içinde ahmet vardır
 
 SELECT * FROM CUSTOMER
 WHERE CITY='ISPARTA'
